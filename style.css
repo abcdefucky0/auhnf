@@ -1,0 +1,66 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P');
+
+body {
+    color: #151515;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* font-family: "Amiri", cursive; */
+    /* font-family: 'Baloo Thambi', cursive; */
+    /* font-family: "Press Start 2P", system-ui; */
+    font-family:  "Lexend Tera", sans-serif;
+    font-size: 8rem;
+    font-weight: bolder;
+}
+
+.container > span {
+    animation: glow  2s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+        color: #fff;
+        text-shadow: 0 0 12px lime, 0 0 50px lime, 0 0 100px lime;
+    }
+    10%, 90% {
+        color:  #5a5a5a;
+        text-shadow: none;
+    }
+}
+
+.container > span:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+.container > span:nth-child(3) {
+    animation-delay: 0.50s;
+}
+
+.container > span:nth-child(4) {
+    animation-delay: 0.75s;
+}
+
+.container > span:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.container > span:nth-child(6) {
+    animation-delay: 1.25s;
+}
+
+/* .container > span:nth-child(7) {
+    animation-delay: 1.50s;
+}
+
+.container > span:nth-child(8) {
+    animation-delay: 1.75s;
+} */
